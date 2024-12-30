@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-div {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.show input {
+    padding: 5px;
+    font-weight: 700;
+    max-width:150px;
+    font-size: 18px;
+}
+
+.show input:focus {
+    outline: none;
+}
+
+.allBtn {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+button {
+    font-size: 18px;
+}
+
+.mainBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberBtn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.numberBtn button {
+    padding: 5px;
+    font-weight: 700;
+}
+
+.amallar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.amallar button {
+    padding: 5px;
+    font-weight: 700;
+}
+
+.change-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.change-div button {
+    padding: 5px;
+    font-weight: 700;
+}
